@@ -12,7 +12,7 @@ enum Features {
     static let isActivityEnabled = true
     static let isSendAllFundsFungibleEnabled = true
     static let isSpeedupAndCancelEnabled = true
-    static let isLanguageSwitcherDisabled = false
+    static let isLanguageSwitcherDisabled = true
     static let shouldLoadTokenScriptWithFailedSignatures = true
     static let isRenameWalletEnabledWhileLongPress = true
     static let shouldPrintCURLForOutgoingRequest = false
