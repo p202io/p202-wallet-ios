@@ -13,6 +13,7 @@ class LocalesCoordinator: Coordinator {
         let locales: [AppLocale] = [
             .system,
             .english,
+            .russian,
             .simplifiedChinese,
             .spanish,
             .korean,

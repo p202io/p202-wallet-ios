@@ -38,7 +38,7 @@ enum MagicLinkURL {
         }
     }
 
-    //E.g. https://aw.app/ethereum:0x89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7/transfer?address=0x8e23ee67d1332ad560396262c48ffbb01f93d052&uint256=1
+    //E.g. https://p202w.app/ethereum:0x89205a3a3b2a69de6dbf7f01ed13b2108b2c43e7/transfer?address=0x8e23ee67d1332ad560396262c48ffbb01f93d052&uint256=1
     private static func hasEip681Path(in url: URL) -> URL? {
         guard let magicLink = RPCServer(withMagicLink: url), url.path.starts(with: Self.eip681Path) else { return nil }
         let eip681Url = url.absoluteString.replacingOccurrences(of: magicLink.magicLinkPrefix.absoluteString, with: "")
@@ -59,8 +59,8 @@ extension MagicLinkURL {
 
 extension MagicLinkURL.functional {
     //Multiple formats:
-    //From WalletConnect mobile linking: e.g. https://aw.app/wc?uri=wc%3A588422fd-929d-438a-b337-31c3c9184d9b%401%3Fbridge%3Dhttps%253A%252F%252Fbridge.walletconnect.org%26key%3D8f9459f72aed0790282c47fe45f37ed5cb121bc17795f8f2a229a910bc447202
-    //From AlphaWallet iOS Safari extension's rewriting: eg. https://aw.app/wc:f607884e-63a5-4fa3-8e7d-af6f6fa9b51f@1?bridge=https%3A%2F%2Fn.bridge.walletconnect.org&key=cff9abba23cb9f843e9d623b891a5f8948b41f7d4afc7f7155aa252504cd8264
+    //From WalletConnect mobile linking: e.g. https://p202w.app/wc?uri=wc%3A588422fd-929d-438a-b337-31c3c9184d9b%401%3Fbridge%3Dhttps%253A%252F%252Fbridge.walletconnect.org%26key%3D8f9459f72aed0790282c47fe45f37ed5cb121bc17795f8f2a229a910bc447202
+    //From AlphaWallet iOS Safari extension's rewriting: eg. https://p202w.app/wc:f607884e-63a5-4fa3-8e7d-af6f6fa9b51f@1?bridge=https%3A%2F%2Fn.bridge.walletconnect.org&key=cff9abba23cb9f843e9d623b891a5f8948b41f7d4afc7f7155aa252504cd8264
     static func hasWalletConnectPath(in url: URL) -> (url: AlphaWallet.WalletConnect.ConnectionUrl, source: MagicLinkURL.WalletConnectSource)? {
         guard url.path.starts(with: MagicLinkURL.walletConnectPath) else { return nil }
         if let url = extractWalletConnectUrlFromSafariExtensionRewrittenUrl(url) {
@@ -84,7 +84,7 @@ extension MagicLinkURL.functional {
         if let WalletConnectV1URL = AlphaWallet.WalletConnect.ConnectionUrl(string) {
             return WalletConnectV1URL
         } else {
-            //no-op. According to WalletConnect docs, this is just to get iOS to switch over to the app for signing, etc. e.g. https://aw.app/wc?uri=wc:00e46b69-d0cc-4b3e-b6a2-cee442f97188@1
+            //no-op. According to WalletConnect docs, this is just to get iOS to switch over to the app for signing, etc. e.g. https://p202w.app/wc?uri=wc:00e46b69-d0cc-4b3e-b6a2-cee442f97188@1
             return nil
         }
     }

@@ -23,7 +23,7 @@
 			<string>Default</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.stormbird.alphawallet.tsml</string>
+				<string>io.p202.wallet.tsml</string>
 			</array>
 		</dict>
 	</array>
@@ -171,7 +171,7 @@
 			<key>UTTypeDescription</key>
 			<string>TokenScript file</string>
 			<key>UTTypeIdentifier</key>
-			<string>com.stormbird.alphawallet.tsml</string>
+			<string>io.p202.wallet.tsml</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>

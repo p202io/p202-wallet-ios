@@ -5,6 +5,7 @@ import Foundation
 enum AppLocale {
     case system
     case english
+    case russian
     case simplifiedChinese
     case spanish
     case korean
@@ -17,6 +18,8 @@ enum AppLocale {
             return nil
         case .english:
             return "en"
+        case .russian:
+            return "ru"
         case .simplifiedChinese:
             return "zh-Hans"
         case .spanish:
@@ -34,6 +37,8 @@ enum AppLocale {
             return nil
         case .english:
             return "en_US"
+        case .russian:
+            return "ru_RU"
         case .simplifiedChinese:
             return "zh_Hans_CN"
         case .spanish:
@@ -52,6 +57,8 @@ enum AppLocale {
             return R.string.localizable.settingsLanguageUseSystemTitle()
         case .english:
             return "English"
+        case .russian:
+            return "Русский"
         case .simplifiedChinese:
             return "简体中文"
         case .spanish:
@@ -70,6 +77,8 @@ enum AppLocale {
                 return .system
             } else if id == AppLocale.english.id {
                 return .english
+            } else if id == AppLocale.russian.id {
+                return .russian
             } else if id == AppLocale.simplifiedChinese.id {
                 return .simplifiedChinese
             } else if id == AppLocale.spanish.id {

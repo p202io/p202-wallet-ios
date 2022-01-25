@@ -1,5 +1,5 @@
 "Advanced" = "高度";
-"app.device.jailbreak.description" = "あらゆる脱獄アプリは AlphaWallet のキーチェーン データにアクセスしてデータを盗むことができます! このウォレットを直ちにワイプして安全なデバイスに復元してください。";
+"app.device.jailbreak.description" = "あらゆる脱獄アプリは P202 Wallet のキーチェーン データにアクセスしてデータを盗むことができます! このウォレットを直ちにワイプして安全なデバイスに復元してください。";
 "app.device.jailbreak.title" = "デバイスのセキュリティが危険にさらされています";
 "Done" = "完了";
 "Cancel" = "キャンセル";
@@ -145,7 +145,7 @@
 "wallets.backupHdWallet.introduction.title" = "Back up your Wallet\n with Seed Phrase";
 "wallets.showSeedPhrase.introduction.button.title" = "Got it, show my seed phrase";
 "wallets.showSeedPhrase.introduction.title" = "Beware of scammers!\nDon’t share seed phrase.";
-"wallets.showSeedPhrase.introduction.subtitle" = "AlphaWallet will NEVER ask about your\nseed phrase (especially on Telegram).";
+"wallets.showSeedPhrase.introduction.subtitle" = "P202 Wallet will NEVER ask about your\nseed phrase (especially on Telegram).";
 "wallets.showSeedPhrase.subtitle2" = "Your seed phrase\n(do not share with anyone)";
 "wallets.showSeedPhrase.hideSeedPhrase" = "OK, hide my seed phrase";
 "wallets.showSeedPhrase.title" = "Your Seed Phrase";
@@ -232,7 +232,7 @@
 "welldone.description.label.text" = "友達とこのアプリをシェアして、アプリの成長をご支援ください!";
 "welldone.navigation.title" = "ありがとうございます!";
 "welldone.share.label.text" = "シェア";
-"welldone.viewmodel.sharing.text" = "AlphaWallet をチェックしてください- 現実の世界のユースケースを実行するスマート契約とのインタラクションを行える、最初の暗号モバイル ウォレット。";
+"welldone.viewmodel.sharing.text" = "P202 Wallet をチェックしてください- 現実の世界のユースケースを実行するスマート契約とのインタラクションを行える、最初の暗号モバイル ウォレット。";
 "browser.home.button.title" = "ホーム";
 "browser.reload.button.title" = "再読み込み";
 "browser.addbookmark.button.title" = "Add to My Bookmarks";
@@ -348,7 +348,7 @@
 "a.help.assetDefinitionOverrides.title" = "TokenScript Overrides";
 "a.console.title" = "Console";
 "a.help.contact.footer.button.title" = "まだヘルプが必要ですか? 当社にお問い合わせください";
-"a.help.contact.email.subject" = "AlphaWallet のヘルプ/フィードバック";
+"a.help.contact.email.subject" = "P202 Wallet のヘルプ/フィードバック";
 "a.help.contact.email.helpfulToDevelopers" = "開発者に役立つ情報:";
 "a.help.contact.email.iosVersion" = "iOS バージョン: %@";
 "a.help.contact.email.deviceModel" = "デバイスのモデル: %@";
@@ -467,7 +467,7 @@
 "light" = "Light";
 "qrCode.title" = "Point your camera on QR code";
 "a.claim.token.failed.serverDown" = "a.claim.token.failed.serverDown";
-"tokenScript.notSupportedSchema.error" = "Please upgrade AlphaWallet to support this TokenScript file";
+"tokenScript.notSupportedSchema.error" = "Please upgrade P202 Wallet to support this TokenScript file";
 "tokenScript.moveFile.error" = "Error moving asset definition file from %@ to: %@: %@";
 "TokenScript.verifying" = "Verifying...";
 "TokenScript.showErrors" = "Show errors";
@@ -476,7 +476,7 @@
 "TokenScript.type2.conflictingFiles" = "Conflicting TokenScript Files";
 "TokenScript.type2.oldSchemaVersion" = "Old TokenScript Version";
 "TokenScript.type2.invalidSignature" = "Invalid Signature";
-"gettingStarted.subtitle" = "Welcome to AlphaWallet";
+"gettingStarted.subtitle" = "Welcome to P202 Wallet";
 "gettingStarted.newWallet" = "Create a New Wallet";
 "gettingStarted.alreadyHaveWallet" = "I already have a wallet:";
 "backup.prompt.title" = "Your Wallet is not backed up!";
@@ -503,14 +503,14 @@
 "keystore.accessKey.nonHd.lock" = "To lock your private key to increase security";
 "keystore.lock.wallet.seed.title" = "Lock your Seed Phrase to Increase Security";
 "keystore.lock.wallet.privateKey.title" = "Lock your Private Key to Increase Security";
-"keystore.lock.wallet.seed.description" = "AlphaWallet security is being upgraded to the best achievable. Lock your seed phrase with biometrics";
-"keystore.lock.wallet.privateKey.description" = "AlphaWallet security is being upgraded to the best achievable. Lock your private key with biometrics";
+"keystore.lock.wallet.seed.description" = "P202 Wallet security is being upgraded to the best achievable. Lock your seed phrase with biometrics";
+"keystore.lock.wallet.privateKey.description" = "P202 Wallet security is being upgraded to the best achievable. Lock your private key with biometrics";
 "keystore.lock.wallet.seed.button" = "Lock Seed Phrase";
 "keystore.lock.wallet.privateKey.button" = "Lock Private Key";
 "wallet.security.level.red" = "BACK UP NOW!";
 "wallet.security.level.orange" = "NOT LOCKED";
 "wallet.security.level.green" = "100% SECURE";
-"wallets.showSeedPhrase.subtitle.error" = "バックアップを共有しないでください。 AlphaWalletチームのメンバーはそれを要求しません。";
+"wallets.showSeedPhrase.subtitle.error" = "バックアップを共有しないでください。 P202 Walletチームのメンバーはそれを要求しません。";
 "token.transactionConfirmation.gas.title" = "Speed (Gas)";
 "token.transactionConfirmation.contract.title" = "Contract";
 "token.transactionConfirmation.function.title" = "Function";
@@ -528,9 +528,9 @@
 "token.transactionConfirmation.error.title.gasLimitTooHigh" = "Gas Limit is too high";
 "token.transactionConfirmation.error.description.insufficientFundsError" = "Every transaction requires a small amount of %@ (%@) to pay for the fees. You can receive %@ from a different wallet, crypto exchange, or you can buy %@ using the button below.";
 "token.transactionConfirmation.error.description.nonceTooLowError" = "The nonce is the total number of transactions which has been sent from this wallet so far, and is included for security purposes. \nWe recommend to leave the nonce empty. \nWe'll fill it for you.";
-"token.transactionConfirmation.error.description.gasPriceTooLow" = "The gas price specified for this transaction is too low. AlphaWallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
-"token.transactionConfirmation.error.description.gasLimitTooLow" = "The gas limit specified for this transaction is too low. AlphaWallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
-"token.transactionConfirmation.error.description.gasLimitTooHigh" = "The gas price specified for this transaction is too high. AlphaWallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
+"token.transactionConfirmation.error.description.gasPriceTooLow" = "The gas price specified for this transaction is too low. P202 Wallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
+"token.transactionConfirmation.error.description.gasLimitTooLow" = "The gas limit specified for this transaction is too low. P202 Wallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
+"token.transactionConfirmation.error.description.gasLimitTooHigh" = "The gas price specified for this transaction is too high. P202 Wallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
 "token.transactionConfirmation.error.description.possibleChainIdMismatchError" = "You might be sending this transaction on the wrong chain.";
 "token.transactionConfirmation.error.description.executionRevertedError" = "It looks like you are trying to run a smart contract and the logic of that smart contract returns an error.";
 "token.transactionConfirmation.error.rectifyButtonTitle.insufficientFundsError" = "Buy %@";

@@ -12,7 +12,7 @@ class ServersCoordinator: Coordinator {
     //Cannot be `let` as the chains can change dynamically without the app being restarted (i.e. killed). The UI can be restarted though (when switching changes)
     static var serversOrdered: [RPCServer] {
         let all: [RPCServer] = [
-            .main,
+            /*.main,
             .xDai,
             .classic,
             .poa,
@@ -20,10 +20,10 @@ class ServersCoordinator: Coordinator {
             .goerli,
             .kovan,
             .rinkeby,
-            .sokol,
+            .sokol,*/
             .binance_smart_chain,
             .binance_smart_chain_testnet,
-            .callisto,
+            /*.callisto,
             .heco,
             .heco_testnet,
             .artis_sigma1,
@@ -37,7 +37,7 @@ class ServersCoordinator: Coordinator {
             .optimistic,
             .optimisticKovan,
             .cronosTestnet,
-            .arbitrum,
+            .arbitrum,*/
         ] + RPCServer.customServers
         if Features.isPalmEnabled {
             return all + [.palm, .palmTestnet]

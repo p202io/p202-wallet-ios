@@ -973,7 +973,7 @@ a6Tpv5ZsWBumnu9cccouSRuV4DHJZ/FZYGoiNFzmZx82q91aNGqa2dwRYa3nITcLt6PSgqZvrFVR
 T/ORM3EzdPkXMk1xgXvxe9EGW9eFK2TBBBLkFg==
 </ds:SignatureValue>
 <ds:KeyInfo>
-<ds:KeyName>AlphaWallet</ds:KeyName>
+<ds:KeyName>P202 Wallet</ds:KeyName>
 <ds:KeyValue>
 <ds:RSAKeyValue>
 <ds:Modulus>

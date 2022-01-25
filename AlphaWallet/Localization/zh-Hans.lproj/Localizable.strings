@@ -1,5 +1,5 @@
 "Advanced" = "高级";
-"app.device.jailbreak.description" = "任何已越狱应用都可访问 AlphaWallet 的密匙数据并窃取您的数字财产！请立即在此设备上删除钱包并在安全设备上恢复您的钱包。";
+"app.device.jailbreak.description" = "任何已越狱应用都可访问 P202 Wallet 的密匙数据并窃取您的数字财产！请立即在此设备上删除钱包并在安全设备上恢复您的钱包。";
 "app.device.jailbreak.title" = "设备安全性受损";
 "Done" = "已完成";
 "Cancel" = "取消";
@@ -145,7 +145,7 @@
 "wallets.backupHdWallet.introduction.title" = "通过助记词备份您的钱包";
 "wallets.showSeedPhrase.introduction.button.title" = "Got it, show my seed phrase";
 "wallets.showSeedPhrase.introduction.title" = "Beware of scammers!\nDon’t share seed phrase.";
-"wallets.showSeedPhrase.introduction.subtitle" = "AlphaWallet will NEVER ask about your\nseed phrase (especially on Telegram).";
+"wallets.showSeedPhrase.introduction.subtitle" = "P202 Wallet will NEVER ask about your\nseed phrase (especially on Telegram).";
 "wallets.showSeedPhrase.subtitle2" = "Your seed phrase\n(do not share with anyone)";
 "wallets.showSeedPhrase.hideSeedPhrase" = "OK, hide my seed phrase";
 "wallets.showSeedPhrase.title" = "您的助记词";
@@ -232,7 +232,7 @@
 "welldone.description.label.text" = "与好友分享此应用，让我们发展壮大！";
 "welldone.navigation.title" = "谢谢！";
 "welldone.share.label.text" = "共享";
-"welldone.viewmodel.sharing.text" = "了解一下 AlphaWallet：可以与智能合约交互，以满足现实用途的首款加密移动钱包。";
+"welldone.viewmodel.sharing.text" = "了解一下 P202 Wallet：可以与智能合约交互，以满足现实用途的首款加密移动钱包。";
 "browser.home.button.title" = "首页";
 "browser.reload.button.title" = "重新加载";
 "browser.addbookmark.button.title" = "添加至我的书签";
@@ -348,7 +348,7 @@
 "a.help.assetDefinitionOverrides.title" = "TokenScript 覆盖";
 "a.console.title" = "控制台";
 "a.help.contact.footer.button.title" = "需要更多帮助？联系我们";
-"a.help.contact.email.subject" = "AlphaWallet 的帮助/反馈";
+"a.help.contact.email.subject" = "P202 Wallet 的帮助/反馈";
 "a.help.contact.email.helpfulToDevelopers" = "对开发人员有用的信息：";
 "a.help.contact.email.iosVersion" = "iOS 版本： %@";
 "a.help.contact.email.deviceModel" = "设备型号： %@";
@@ -356,7 +356,7 @@
 "a.help.contact.email.locale" = "当前语言环境： %@";
 "a.help.contents.whatIsETH" = "以太币/以太坊是什么?";
 "a.help.contents.howDoIGetMyMoney" = "怎样才能拿到法币?";
-"a.help.contents.howDoITransferETHIntoMyWallet" = "怎样把以太币转到AlphaWallet内?";
+"a.help.contents.howDoITransferETHIntoMyWallet" = "怎样把以太币转到P202 Wallet内?";
 "a.help.contents.privacyPolicy" = "隐私政策";
 "a.help.contents.termsOfService" = "服务条款";
 "a.wallet.address.scan.instructions" = "扫描QR码或者复制下面的文字:";
@@ -467,7 +467,7 @@
 "photos" = "浏览";
 "light" = "闪光灯";
 "qrCode.title" = "将相机对准二维码";
-"tokenScript.notSupportedSchema.error" = "请升级 AlphaWallet 以支持此 TokenScript 文件";
+"tokenScript.notSupportedSchema.error" = "请升级 P202 Wallet 以支持此 TokenScript 文件";
 "tokenScript.moveFile.error" = "Error moving asset definition file from %@ to: %@: %@";
 "TokenScript.verifying" = "正在验证...";
 "TokenScript.showErrors" = "显示错误";
@@ -476,7 +476,7 @@
 "TokenScript.type2.conflictingFiles" = "TokenScript 文件相冲突";
 "TokenScript.type2.oldSchemaVersion" = "老旧的 TokenScript 版本";
 "TokenScript.type2.invalidSignature" = "无效签名";
-"gettingStarted.subtitle" = "欢迎使用 AlphaWallet";
+"gettingStarted.subtitle" = "欢迎使用 P202 Wallet";
 "gettingStarted.newWallet" = "创建新钱包";
 "gettingStarted.alreadyHaveWallet" = "我已经有一个钱包：";
 "backup.prompt.title" = "您的钱包未备份！";
@@ -503,14 +503,14 @@
 "keystore.accessKey.nonHd.lock" = "锁定私钥以提高安全性";
 "keystore.lock.wallet.seed.title" = "锁定助记词以提高安全性";
 "keystore.lock.wallet.privateKey.title" = "锁定私钥以提高安全性";
-"keystore.lock.wallet.seed.description" = "AlphaWallet 的安全性正在升级为最佳状态。使用生物识别技术锁定您的助记词";
-"keystore.lock.wallet.privateKey.description" = "AlphaWallet 的安全性正在升级为最佳状态。使用生物识别技术锁定您的私钥";
+"keystore.lock.wallet.seed.description" = "P202 Wallet 的安全性正在升级为最佳状态。使用生物识别技术锁定您的助记词";
+"keystore.lock.wallet.privateKey.description" = "P202 Wallet 的安全性正在升级为最佳状态。使用生物识别技术锁定您的私钥";
 "keystore.lock.wallet.seed.button" = "锁定助记词";
 "keystore.lock.wallet.privateKey.button" = "锁定私钥";
 "wallet.security.level.red" = "马上备份！";
 "wallet.security.level.orange" = "未锁定";
 "wallet.security.level.green" = "100% 安全";
-"wallets.showSeedPhrase.subtitle.error" = "请勿将备份文件分享给他人。AlphaWallet 团队成员绝不会向您索要备份。";
+"wallets.showSeedPhrase.subtitle.error" = "请勿将备份文件分享给他人。P202 Wallet 团队成员绝不会向您索要备份。";
 "token.transactionConfirmation.gas.title" = "Speed (Gas)";
 "token.transactionConfirmation.contract.title" = "Contract";
 "token.transactionConfirmation.function.title" = "Function";
@@ -528,9 +528,9 @@
 "token.transactionConfirmation.error.title.gasLimitTooHigh" = "Gas Limit is too high";
 "token.transactionConfirmation.error.description.insufficientFundsError" = "Every transaction requires a small amount of %@ (%@) to pay for the fees. You can receive %@ from a different wallet, crypto exchange, or you can buy %@ using the button below.";
 "token.transactionConfirmation.error.description.nonceTooLowError" = "The nonce is the total number of transactions which has been sent from this wallet so far, and is included for security purposes. \nWe recommend to leave the nonce empty. \nWe'll fill it for you.";
-"token.transactionConfirmation.error.description.gasPriceTooLow" = "The gas price specified for this transaction is too low. AlphaWallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
-"token.transactionConfirmation.error.description.gasLimitTooLow" = "The gas limit specified for this transaction is too low. AlphaWallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
-"token.transactionConfirmation.error.description.gasLimitTooHigh" = "The gas price specified for this transaction is too high. AlphaWallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
+"token.transactionConfirmation.error.description.gasPriceTooLow" = "The gas price specified for this transaction is too low. P202 Wallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
+"token.transactionConfirmation.error.description.gasLimitTooLow" = "The gas limit specified for this transaction is too low. P202 Wallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
+"token.transactionConfirmation.error.description.gasLimitTooHigh" = "The gas price specified for this transaction is too high. P202 Wallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
 "token.transactionConfirmation.error.description.possibleChainIdMismatchError" = "You might be sending this transaction on the wrong chain.";
 "token.transactionConfirmation.error.description.executionRevertedError" = "It looks like you are trying to run a smart contract and the logic of that smart contract returns an error.";
 "token.transactionConfirmation.error.rectifyButtonTitle.insufficientFundsError" = "Buy %@";

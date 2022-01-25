@@ -113,12 +113,12 @@ class InCoordinator: NSObject, Coordinator {
     private lazy var rampBuyService = Ramp(account: wallet)
     private lazy var tokenActionsService: TokenActionsServiceType = {
         let service = TokenActionsService()
-        service.register(service: rampBuyService)
-        service.register(service: oneInchSwapService)
+        //service.register(service: rampBuyService)
+        //service.register(service: oneInchSwapService)
 
-        let honeySwapService = HoneySwap()
-        honeySwapService.theme = navigationController.traitCollection.honeyswapTheme
-        service.register(service: honeySwapService)
+        //let honeySwapService = HoneySwap()
+        //honeySwapService.theme = navigationController.traitCollection.honeyswapTheme
+        //service.register(service: honeySwapService)
 
         //NOTE: Disable uniswap swap provider
 
@@ -127,12 +127,12 @@ class InCoordinator: NSObject, Coordinator {
 
         //service.register(service: uniswap)
 
-        var quickSwap = QuickSwap()
-        quickSwap.theme = navigationController.traitCollection.uniswapTheme
+        //var quickSwap = QuickSwap()
+        //quickSwap.theme = navigationController.traitCollection.uniswapTheme
 
-        service.register(service: quickSwap)
-        service.register(service: ArbitrumBridge())
-        service.register(service: xDaiBridge())
+        //service.register(service: quickSwap)
+        //service.register(service: ArbitrumBridge())
+        //service.register(service: xDaiBridge())
 
         return service
     }()

@@ -11,7 +11,7 @@ class UniversalLinkHandlerTests: XCTestCase {
     
     func testUniversalLinkParser() {
         let server: RPCServer = .main
-        let testUrl = "https://aw.app/AQAAAAAAAACjNHyO0TRETCUWmHLJCmNg1Cs2kQFxEtQiQ269SZP2r2Y6CETiCqCE3HGQa63LYjsaCOccJi0mj9bpsmnZCwFkjVcNaaJ6Ed8lVU83UiGILQZ4CcFhHA=="
+        let testUrl = "https://p202w.app/AQAAAAAAAACjNHyO0TRETCUWmHLJCmNg1Cs2kQFxEtQiQ269SZP2r2Y6CETiCqCE3HGQa63LYjsaCOccJi0mj9bpsmnZCwFkjVcNaaJ6Ed8lVU83UiGILQZ4CcFhHA=="
         guard let signedOrder = UniversalLinkHandler(server: server).parseUniversalLink(url: testUrl, prefix: RPCServer.main.magicLinkPrefix.absoluteString) else {
             XCTFail("Not able to extract an order from MagicLink")
             return
@@ -46,9 +46,9 @@ class UniversalLinkHandlerTests: XCTestCase {
     func testUniversalLinkParserDoesNotCrashWhenInvalid() {
         let server: RPCServer = .main
         let parser = UniversalLinkHandler(server: server)
-        XCTAssertNil(parser.parseUniversalLink(url: "https://aw.app/", prefix: RPCServer.main.magicLinkPrefix.absoluteString))
-        XCTAssertNil(parser.parseUniversalLink(url: "https://aw.app", prefix: RPCServer.main.magicLinkPrefix.absoluteString))
-        XCTAssertNil(parser.parseUniversalLink(url: "http://aw.app", prefix: RPCServer.main.magicLinkPrefix.absoluteString))
-        XCTAssertNil(parser.parseUniversalLink(url: "http://aw.app/", prefix: RPCServer.main.magicLinkPrefix.absoluteString))
+        XCTAssertNil(parser.parseUniversalLink(url: "https://p202w.app/", prefix: RPCServer.main.magicLinkPrefix.absoluteString))
+        XCTAssertNil(parser.parseUniversalLink(url: "https://p202w.app", prefix: RPCServer.main.magicLinkPrefix.absoluteString))
+        XCTAssertNil(parser.parseUniversalLink(url: "http://p202w.app", prefix: RPCServer.main.magicLinkPrefix.absoluteString))
+        XCTAssertNil(parser.parseUniversalLink(url: "http://p202w.app/", prefix: RPCServer.main.magicLinkPrefix.absoluteString))
     }
 }

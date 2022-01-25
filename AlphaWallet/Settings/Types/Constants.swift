@@ -5,47 +5,47 @@ import BigInt
 import web3swift
 
 public struct Constants {
-    public static let keychainKeyPrefix = "alphawallet"
+    public static let keychainKeyPrefix = "p202wallet"
     public static let xdaiDropPrefix = Data(bytes:
         [0x58, 0x44, 0x41, 0x49, 0x44, 0x52, 0x4F, 0x50]
     ).hex()
 
-    public static let mainnetMagicLinkHost = "aw.app"
-    public static let legacyMagicLinkHost = "app.awallet.io"
-    public static let classicMagicLinkHost = "classic.aw.app"
-    public static let callistoMagicLinkHost = "callisto.aw.app"
-    public static let kovanMagicLinkHost = "kovan.aw.app"
-    public static let ropstenMagicLinkHost = "ropsten.aw.app"
-    public static let rinkebyMagicLinkHost = "rinkeby.aw.app"
-    public static let poaMagicLinkHost = "poa.aw.app"
-    public static let sokolMagicLinkHost = "sokol.aw.app"
-    public static let xDaiMagicLinkHost = "xdai.aw.app"
-    public static let goerliMagicLinkHost = "goerli.aw.app"
-    public static let artisSigma1MagicLinkHost = "artis_sigma1.aw.app"
-    public static let artisTau1MagicLinkHost = "artis_tau1.aw.app"
-    public static let binanceMagicLinkHost = "binance.aw.app"
-    public static let binanceTestMagicLinkHost = "test-binance.aw.app"
-    public static let hecoMagicLinkHost = "heco.aw.app"
-    public static let hecoTestMagicLinkHost = "test-heco.aw.app"
-    public static let customMagicLinkHost = "custom.aw.app"
-    public static let fantomMagicLinkHost = "fantom.aw.app"
-    public static let fantomTestMagicLinkHost = "test-fantom.aw.app"
-    public static let avalancheMagicLinkHost = "avalanche.aw.app"
-    public static let avalancheTestMagicLinkHost = "test-avalanche.aw.app"
-    public static let maticMagicLinkHost = "polygon.aw.app"
-    public static let mumbaiTestMagicLinkHost = "test-polygon.aw.app"
-    public static let optimisticMagicLinkHost = "optimistic.aw.app"
-    public static let optimisticTestMagicLinkHost = "optimistic-kovan.aw.app"
-    public static let cronosTestMagicLinkHost = "test-cronos.aw.app"
-    public static let arbitrumMagicLinkHost = "arbitrum.aw.app"
-    public static let palmMagicLinkHost = "palm.aw.app"
-    public static let palmTestnetMagicLinkHost = "palmTestnet.aw.app"
+    public static let mainnetMagicLinkHost = "p202w.app"
+    public static let legacyMagicLinkHost = "wallet.p202.io"
+    public static let classicMagicLinkHost = "classic.p202w.app"
+    public static let callistoMagicLinkHost = "callisto.p202w.app"
+    public static let kovanMagicLinkHost = "kovan.p202w.app"
+    public static let ropstenMagicLinkHost = "ropsten.p202w.app"
+    public static let rinkebyMagicLinkHost = "rinkeby.p202w.app"
+    public static let poaMagicLinkHost = "poa.p202w.app"
+    public static let sokolMagicLinkHost = "sokol.p202w.app"
+    public static let xDaiMagicLinkHost = "xdai.p202w.app"
+    public static let goerliMagicLinkHost = "goerli.p202w.app"
+    public static let artisSigma1MagicLinkHost = "artis_sigma1.p202w.app"
+    public static let artisTau1MagicLinkHost = "artis_tau1.p202w.app"
+    public static let binanceMagicLinkHost = "binance.p202w.app"
+    public static let binanceTestMagicLinkHost = "test-binance.p202w.app"
+    public static let hecoMagicLinkHost = "heco.p202w.app"
+    public static let hecoTestMagicLinkHost = "test-heco.p202w.app"
+    public static let customMagicLinkHost = "custom.p202w.app"
+    public static let fantomMagicLinkHost = "fantom.p202w.app"
+    public static let fantomTestMagicLinkHost = "test-fantom.p202w.app"
+    public static let avalancheMagicLinkHost = "avalanche.p202w.app"
+    public static let avalancheTestMagicLinkHost = "test-avalanche.p202w.app"
+    public static let maticMagicLinkHost = "polygon.p202w.app"
+    public static let mumbaiTestMagicLinkHost = "test-polygon.p202w.app"
+    public static let optimisticMagicLinkHost = "optimistic.p202w.app"
+    public static let optimisticTestMagicLinkHost = "optimistic-kovan.p202w.app"
+    public static let cronosTestMagicLinkHost = "test-cronos.p202w.app"
+    public static let arbitrumMagicLinkHost = "arbitrum.p202w.app"
+    public static let palmMagicLinkHost = "palm.p202w.app"
+    public static let palmTestnetMagicLinkHost = "palmTestnet.p202w.app"
 
     public enum Currency {
         static let usd = "USD"
     }
     // Magic link networks
-    public static let legacyMagicLinkPrefix = "https://app.awallet.io/"
+    public static let legacyMagicLinkPrefix = "https://wallet.p202.io/"
 
     // fee master
     public static let paymentServer = "https://paymaster.stormbird.sg/api/claimToken"
@@ -55,14 +55,14 @@ public struct Constants {
     public static let currencyDropServer = "https://paymaster.stormbird.sg/api/claimFreeCurrency"
 
     // social
-    public static let website = "https://alphawallet.com/"
+    public static let website = "https://wallet.p202.io/"
     public static let twitterUsername = "AlphaWallet"
     public static let redditGroupName = "r/AlphaWallet/"
     public static let facebookUsername = "AlphaWallet"
 
     // support
-    public static let supportEmail = "feedback+ios@alphawallet.com"
-    public static let dappsBrowserURL = "http://aw.app"
+    public static let supportEmail = "feedback+ios@p202.io"
+    public static let dappsBrowserURL = "http://p202w.app"
 
     //Ethereum null variables
     public static let nullTokenId = "0x0000000000000000000000000000000000000000000000000000000000000000"
@@ -91,10 +91,10 @@ public struct Constants {
     //xDai dapps
     static let xDaiBridge = URL(string: "https://bridge.xdaichain.com/")!
     static let arbitrumBridge = URL(string: "https://bridge.arbitrum.io/")!
-    static let buyXDaiWitRampUrl = "https://buy.ramp.network/?hostApiKey=\(Constants.Credentials.rampApiKey)&hostLogoUrl=https%3A%2F%2Falphawallet.com%2Fwp-content%2Fthemes%2Falphawallet%2Fimg%2Falphawallet-logo.svg&hostAppName=AlphaWallet&swapAsset=xDai"
+    static let buyXDaiWitRampUrl = "https://buy.ramp.network/?hostApiKey=\(Constants.Credentials.rampApiKey)&hostLogoUrl=https%3A%2F%2Fwallet.p202p.io%2Flogo.svg&hostAppName=P202Wallet&swapAsset=xDai"
 
     static func buyWitRampUrl(asset: String) -> String {
-        "https://buy.ramp.network/?hostApiKey=\(Constants.Credentials.rampApiKey)&hostLogoUrl=https%3A%2F%2Falphawallet.com%2Fwp-content%2Fthemes%2Falphawallet%2Fimg%2Falphawallet-logo.svg&hostAppName=AlphaWallet&swapAsset=\(asset)"
+        "https://buy.ramp.network/?hostApiKey=\(Constants.Credentials.rampApiKey)&hostLogoUrl=https%3A%2F%2Fwallet.p202p.io%2Flogo.svg&hostAppName=P202Wallet&swapAsset=\(asset)"
     }
 
     //ENS
@@ -175,15 +175,15 @@ public struct Constants {
 
     static let ensContractOnMainnet = AlphaWallet.Address.ethereumAddress(eip55String: "0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85")
 
-    static let defaultEnabledServers: [RPCServer] = [.main, .xDai, .polygon]
-    static let defaultEnabledTestnetServers: [RPCServer] = [.ropsten]
+    static let defaultEnabledServers: [RPCServer] = [.binance_smart_chain]
+    static let defaultEnabledTestnetServers: [RPCServer] = [.binance_smart_chain_testnet]
 
     static let tokenScriptUrlSchemeForResources = "tokenscript-resource:///"
 
     //validator API
-    static let tokenScriptValidatorAPI = "https://aw.app/api/v1/verifyXMLDSig"
+    static let tokenScriptValidatorAPI = "https://p202w.app/api/v1/verifyXMLDSig"
 
-    static let launchShortcutKey = "com.stormbird.alphawallet.qrScanner"
+    static let launchShortcutKey = "io.p202.wallet.qrScanner"
 
     static let enjinApiUrl = URL(string: "https://cloud.enjin.io/graphql/default")!
     static let walletConnectRelayURL = URL(string: "https://relay.walletconnect.com")!

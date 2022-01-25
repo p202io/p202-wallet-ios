@@ -46,7 +46,7 @@ class WalletConnectV1Provider: WalletConnectServerType {
     static let connectionTimeout: TimeInterval = 10
 
     enum Keys {
-        static let server = "AlphaWallet"
+        static let server = "P202 Wallet"
         static func generateStorageFileKey(wallet: AlphaWallet.Address) -> String {
             return "walletConnectSessions-v1-\(wallet.eip55String)"
         }
