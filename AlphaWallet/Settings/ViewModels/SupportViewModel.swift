@@ -13,7 +13,7 @@ class SupportViewModel: NSObject {
         R.string.localizable.settingsSupportTitle()
     }
 
-    var rows: [SupportRow] = [.telegramCustomer, .discord, .email, .twitter, .github, .faq]
+    var rows: [SupportRow] = [/*.telegramCustomer, .discord,*/ .email/*, .twitter, .github, .faq*/]
 
     func cellViewModel(indexPath: IndexPath) -> SettingTableViewCellViewModel {
         let row = rows[indexPath.row]
