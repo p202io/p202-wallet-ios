@@ -12,14 +12,14 @@ enum Features {
     static let isActivityEnabled = true
     static let isSendAllFundsFungibleEnabled = true
     static let isSpeedupAndCancelEnabled = true
-    static let isLanguageSwitcherDisabled = true
+    static let isLanguageSwitcherDisabled = false
     static let shouldLoadTokenScriptWithFailedSignatures = true
     static let isRenameWalletEnabledWhileLongPress = true
     static let shouldPrintCURLForOutgoingRequest = false
     static let isEip3085AddEthereumChainEnabled = true
     static let isEip3326SwitchEthereumChainEnabled = true
     static let isPromptForEmailListSubscriptionEnabled = false
-    static let isAlertsEnabled = false
+    static let isAlertsEnabled = true
     static let isErc1155Enabled = true
     static let isUsingPrivateNetwork = false
     static let isUsingAppEnforcedTimeoutForMakingWalletConnectConnections = true
