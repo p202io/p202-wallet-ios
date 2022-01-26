@@ -183,7 +183,7 @@ public struct Constants {
     //validator API
     static let tokenScriptValidatorAPI = "https://p202w.app/api/v1/verifyXMLDSig"
 
-    static let launchShortcutKey = "io.p202.wallet.qrScanner"
+    static let launchShortcutKey = "io.p202.wallet.app.qrScanner"
 
     static let enjinApiUrl = URL(string: "https://cloud.enjin.io/graphql/default")!
     static let walletConnectRelayURL = URL(string: "https://relay.walletconnect.com")!
