@@ -6911,7 +6911,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = S2KWW5PZUZ;
 				ENABLE_BITCODE = YES;
 				HEADER_SEARCH_PATHS = (
@@ -6957,7 +6957,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = S2KWW5PZUZ;
 				ENABLE_BITCODE = YES;
 				HEADER_SEARCH_PATHS = (
@@ -7051,7 +7051,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = S2KWW5PZUZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AlphaWalletSafariExtension/Info.plist;
@@ -7089,7 +7089,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = S2KWW5PZUZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AlphaWalletSafariExtension/Info.plist;
@@ -7125,7 +7125,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = S2KWW5PZUZ;
 				INFOPLIST_FILE = AlphaWalletShare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -7156,7 +7156,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = S2KWW5PZUZ;
 				INFOPLIST_FILE = AlphaWalletShare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
