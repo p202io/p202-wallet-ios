@@ -12,15 +12,15 @@ class ServersCoordinator: Coordinator {
     //Cannot be `let` as the chains can change dynamically without the app being restarted (i.e. killed). The UI can be restarted though (when switching changes)
     static var serversOrdered: [RPCServer] {
         let all: [RPCServer] = [
-            /*.main,
-            .xDai,
+            .main,
+            /*.xDai,
             .classic,
             .poa,
             .ropsten,
             .goerli,
-            .kovan,
+            .kovan,*/
             .rinkeby,
-            .sokol,*/
+            //.sokol,
             .binance_smart_chain,
             .binance_smart_chain_testnet,
             /*.callisto,
@@ -31,10 +31,10 @@ class ServersCoordinator: Coordinator {
             .fantom,
             .fantom_testnet,
             .avalanche,
-            .avalanche_testnet,
+            .avalanche_testnet,*/
             .polygon,
             .mumbai_testnet,
-            .optimistic,
+            /*.optimistic,
             .optimisticKovan,
             .cronosTestnet,
             .arbitrum,*/

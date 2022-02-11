@@ -175,7 +175,7 @@ public struct Constants {
 
     static let ensContractOnMainnet = AlphaWallet.Address.ethereumAddress(eip55String: "0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85")
 
-    static let defaultEnabledServers: [RPCServer] = [.binance_smart_chain]
+    static let defaultEnabledServers: [RPCServer] = [.binance_smart_chain,.main,.polygon]
     static let defaultEnabledTestnetServers: [RPCServer] = [.binance_smart_chain_testnet]
 
     static let tokenScriptUrlSchemeForResources = "tokenscript-resource:///"
