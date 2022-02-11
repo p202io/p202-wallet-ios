@@ -1,5 +1,5 @@
 "Advanced" = "Avanzado";
-"app.device.jailbreak.description" = "Cualquier aplicación con \"jailbreak\" puede acceder a los datos de la cadena de claves de AlphaWallet ¡y robar tu monedero! Borra este monedero inmediatamente y restáuralo en un dispositivo seguro.";
+"app.device.jailbreak.description" = "Cualquier aplicación con \"jailbreak\" puede acceder a los datos de la cadena de claves de P202 Wallet ¡y robar tu monedero! Borra este monedero inmediatamente y restáuralo en un dispositivo seguro.";
 "app.device.jailbreak.title" = "SEGURIDAD DEL DISPOSITIVO COMPROMETIDA";
 "Done" = "Hecho";
 "Cancel" = "Cancelar";
@@ -145,7 +145,7 @@
 "wallets.backupHdWallet.introduction.title" = "Haz una copia de seguridad de tu monedero\n con la frase semilla";
 "wallets.showSeedPhrase.introduction.button.title" = "Got it, show my seed phrase";
 "wallets.showSeedPhrase.introduction.title" = "Beware of scammers!\nDon’t share seed phrase.";
-"wallets.showSeedPhrase.introduction.subtitle" = "AlphaWallet will NEVER ask about your\nseed phrase (especially on Telegram).";
+"wallets.showSeedPhrase.introduction.subtitle" = "P202 Wallet will NEVER ask about your\nseed phrase (especially on Telegram).";
 "wallets.showSeedPhrase.subtitle2" = "Your seed phrase\n(do not share with anyone)";
 "wallets.showSeedPhrase.hideSeedPhrase" = "OK, hide my seed phrase";
 "wallets.showSeedPhrase.title" = "Tu frase semilla";
@@ -232,7 +232,7 @@
 "welldone.description.label.text" = "¡Ayúdanos a crecer compartiendo esta aplicación con tus amigos!";
 "welldone.navigation.title" = "¡Gracias!";
 "welldone.share.label.text" = "Compartir";
-"welldone.viewmodel.sharing.text" = "Echa un vistazo a AlphaWallet - El primer monedero criptográfico móvil que puede interactuar con contratos inteligentes para llevar a cabo casos de uso en el mundo real.";
+"welldone.viewmodel.sharing.text" = "Echa un vistazo a P202 Wallet - El primer monedero criptográfico móvil que puede interactuar con contratos inteligentes para llevar a cabo casos de uso en el mundo real.";
 "browser.home.button.title" = "Inicio";
 "browser.reload.button.title" = "Volver a cargar";
 "browser.addbookmark.button.title" = "Añadir a Mis marcadores";
@@ -348,7 +348,7 @@
 "a.help.assetDefinitionOverrides.title" = "Sustituciones de TokenScript";
 "a.console.title" = "Consola";
 "a.help.contact.footer.button.title" = "¿Sigues necesitando ayuda? Contacta con nosotros";
-"a.help.contact.email.subject" = "Ayuda/Comentarios de AlphaWallet";
+"a.help.contact.email.subject" = "Ayuda/Comentarios de P202 Wallet";
 "a.help.contact.email.helpfulToDevelopers" = "Información útil para desarrolladores:";
 "a.help.contact.email.iosVersion" = "Versión de iOS: %@";
 "a.help.contact.email.deviceModel" = "Modelo del dispositivo: %@";
@@ -467,7 +467,7 @@
 "photos" = "Explorar";
 "light" = "Luz";
 "qrCode.title" = "Apunta la cámara al código QR";
-"tokenScript.notSupportedSchema.error" = "Actualiza AlphaWallet para poder utilizar este archivo de TokenScript";
+"tokenScript.notSupportedSchema.error" = "Actualiza P202 Wallet para poder utilizar este archivo de TokenScript";
 "tokenScript.moveFile.error" = "Error moving asset definition file from %@ to: %@: %@";
 "TokenScript.verifying" = "Verificando...";
 "TokenScript.showErrors" = "Mostrar errores";
@@ -476,7 +476,7 @@
 "TokenScript.type2.conflictingFiles" = "Archivos de TokenScript en conflicto";
 "TokenScript.type2.oldSchemaVersion" = "Versión antigua de TokenScript";
 "TokenScript.type2.invalidSignature" = "Firma no válida";
-"gettingStarted.subtitle" = "Bienvenido a AlphaWallet";
+"gettingStarted.subtitle" = "Bienvenido a P202 Wallet";
 "gettingStarted.newWallet" = "Crear un monedero nuevo";
 "gettingStarted.alreadyHaveWallet" = "Ya tengo un monedero:";
 "backup.prompt.title" = "¡No has hecho una copia de seguridad de tu monedero!";
@@ -503,14 +503,14 @@
 "keystore.accessKey.nonHd.lock" = "Para bloquear tu clave privada y aumentar la seguridad";
 "keystore.lock.wallet.seed.title" = "Bloquea tu frase semilla para aumentar la seguridad";
 "keystore.lock.wallet.privateKey.title" = "Bloquea tu clave privada para aumentar la seguridad";
-"keystore.lock.wallet.seed.description" = "La seguridad de AlphaWallet se ha mejorado al máximo. Bloquea tu frase semilla mediante biometría";
-"keystore.lock.wallet.privateKey.description" = "La seguridad de AlphaWallet se ha mejorado al máximo. Bloquea tu clave privada mediante biometría";
+"keystore.lock.wallet.seed.description" = "La seguridad de P202 Wallet se ha mejorado al máximo. Bloquea tu frase semilla mediante biometría";
+"keystore.lock.wallet.privateKey.description" = "La seguridad de P202 Wallet se ha mejorado al máximo. Bloquea tu clave privada mediante biometría";
 "keystore.lock.wallet.seed.button" = "Bloquear frase semilla";
 "keystore.lock.wallet.privateKey.button" = "Bloquear clave privada";
 "wallet.security.level.red" = "¡HAZ UNA COPIA DE SEGURIDAD AHORA!";
 "wallet.security.level.orange" = "NO BLOQUEADO";
 "wallet.security.level.green" = "100% SEGURO";
-"wallets.showSeedPhrase.subtitle.error" = "No compartas tu copia de seguridad. Los miembros del equipo de AlphaWallet nunca te la pedirán.";
+"wallets.showSeedPhrase.subtitle.error" = "No compartas tu copia de seguridad. Los miembros del equipo de P202 Wallet nunca te la pedirán.";
 "token.transactionConfirmation.gas.title" = "Speed (Gas)";
 "token.transactionConfirmation.contract.title" = "Contract";
 "token.transactionConfirmation.function.title" = "Function";
@@ -528,9 +528,9 @@
 "token.transactionConfirmation.error.title.gasLimitTooHigh" = "Gas Limit is too high";
 "token.transactionConfirmation.error.description.insufficientFundsError" = "Every transaction requires a small amount of %@ (%@) to pay for the fees. You can receive %@ from a different wallet, crypto exchange, or you can buy %@ using the button below.";
 "token.transactionConfirmation.error.description.nonceTooLowError" = "The nonce is the total number of transactions which has been sent from this wallet so far, and is included for security purposes. \nWe recommend to leave the nonce empty. \nWe'll fill it for you.";
-"token.transactionConfirmation.error.description.gasPriceTooLow" = "The gas price specified for this transaction is too low. AlphaWallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
-"token.transactionConfirmation.error.description.gasLimitTooLow" = "The gas limit specified for this transaction is too low. AlphaWallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
-"token.transactionConfirmation.error.description.gasLimitTooHigh" = "The gas price specified for this transaction is too high. AlphaWallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
+"token.transactionConfirmation.error.description.gasPriceTooLow" = "The gas price specified for this transaction is too low. P202 Wallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
+"token.transactionConfirmation.error.description.gasLimitTooLow" = "The gas limit specified for this transaction is too low. P202 Wallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
+"token.transactionConfirmation.error.description.gasLimitTooHigh" = "The gas price specified for this transaction is too high. P202 Wallet is using a live oracle and updates the gas price every 15 seconds. We recommend you to choose preselected amount (Slow, Average, Fast).";
 "token.transactionConfirmation.error.description.possibleChainIdMismatchError" = "You might be sending this transaction on the wrong chain.";
 "token.transactionConfirmation.error.description.executionRevertedError" = "It looks like you are trying to run a smart contract and the logic of that smart contract returns an error.";
 "token.transactionConfirmation.error.rectifyButtonTitle.insufficientFundsError" = "Buy %@";

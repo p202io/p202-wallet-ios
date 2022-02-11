@@ -1,4 +1,8 @@
 {
+"BNB":
+  [
+    {"address": "0x61a960C3F213B80EaC761e2f996414AB52C08985", "name": "P202", "isPopular": true, "network": 56}
+  ],
 "MainNet":
   [
     {"address": "0xdac17f958d2ee523a2206206994597c13d831ec7", "name": "USDT", "isPopular": true, "network": 1},

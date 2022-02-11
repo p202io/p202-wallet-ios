@@ -279,12 +279,12 @@ private class PrivateXMLHandler {
         let lang = Locale.preferredLanguages[0]
         if lang.hasPrefix("en") {
             return "en"
+        //} else if lang.hasPrefix("ru") {
+        //    return "ru"
         } else if lang.hasPrefix("zh") {
             return "zh"
         } else if lang.hasPrefix("es") {
             return "es"
-        } else if lang.hasPrefix("ru") {
-            return "ru"
         }
         return "en"
     }

@@ -5,7 +5,7 @@ import XCTest
 
 class RPCServerTests: XCTestCase {
 
-    func testMainNetwork() {
+    /*func testMainNetwork() {
         let server = RPCServer(chainID: 1)
 
         XCTAssertEqual(.main, server)
@@ -44,5 +44,5 @@ class RPCServerTests: XCTestCase {
     func testDefaultMainnetServers() {
         let all = Constants.defaultEnabledServers
         XCTAssertTrue(all.contains(.main))
-    }
+    }*/
 }

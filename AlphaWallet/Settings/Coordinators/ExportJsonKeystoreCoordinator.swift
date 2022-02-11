@@ -63,7 +63,7 @@ extension ExportJsonKeystoreCoordinator: ExportJsonKeystoreFileDelegate {
     }
 
     private func exportJsonKeystore(jsonData: String, in viewController: UIViewController) {
-        let fileName = "alphawallet_keystore_export_\(UUID().uuidString).json"
+        let fileName = "p202wallet_keystore_export_\(UUID().uuidString).json"
         let fileUrl = FileManager.default.temporaryDirectory.appendingPathComponent(fileName)
         do {
             try jsonData.data(using: .utf8)!.write(to: fileUrl)

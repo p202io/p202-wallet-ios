@@ -6,26 +6,26 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:app.awallet.io</string>
-		<string>applinks:aw.app</string>
-		<string>applinks:classic.aw.app</string>
-		<string>applinks:callisto.aw.app</string>
-		<string>applinks:kovan.aw.app</string>
-		<string>applinks:ropsten.aw.app</string>
-		<string>applinks:rinkeby.aw.app</string>
-		<string>applinks:poa.aw.app</string>
-		<string>applinks:sokol.aw.app</string>
-		<string>applinks:xdai.aw.app</string>
-		<string>applinks:custom.aw.app</string>
-		<string>applinks:goerli.aw.app</string>
-		<string>applinks:binance.aw.app</string>
-		<string>applinks:test-binance.aw.app</string>
+		<string>applinks:wallet.p202.io</string>
+		<string>applinks:p202w.app</string>
+		<string>applinks:classic.p202w.app</string>
+		<string>applinks:callisto.p202w.app</string>
+		<string>applinks:kovan.p202w.app</string>
+		<string>applinks:ropsten.p202w.app</string>
+		<string>applinks:rinkeby.p202w.app</string>
+		<string>applinks:poa.p202w.app</string>
+		<string>applinks:sokol.p202w.app</string>
+		<string>applinks:xdai.p202w.app</string>
+		<string>applinks:custom.p202w.app</string>
+		<string>applinks:goerli.p202w.app</string>
+		<string>applinks:binance.p202w.app</string>
+		<string>applinks:test-binance.p202w.app</string>
 	</array>
 	<key>com.apple.developer.default-data-protection</key>
 	<string>NSFileProtectionComplete</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.stormbird.alphawallet</string>
+		<string>group.io.p202.wallet.app</string>
 	</array>
 </dict>
 </plist>

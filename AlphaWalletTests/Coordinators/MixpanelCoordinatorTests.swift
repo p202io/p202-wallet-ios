@@ -12,7 +12,7 @@ class MixpanelCoordinatorTests: XCTestCase {
     func testMixpanelSdkTypeConvertation() {
         let coordinator = MixpanelCoordinator(withKey: "")
         let values: [AnalyticsEventPropertyValue] = [
-            "Hello AlphaWallet",
+            "Hello P202 Wallet",
             1,
             Constants.nullAddress,
             URL(string: Constants.website)!,

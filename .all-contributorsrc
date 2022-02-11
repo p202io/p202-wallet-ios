@@ -374,8 +374,8 @@
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "alpha-wallet-ios",
-  "projectOwner": "AlphaWallet",
+  "projectName": "p202-wallet-ios",
+  "projectOwner": "p202io",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
