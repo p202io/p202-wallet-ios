@@ -89,7 +89,7 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>$(ALPHAWALLET_PRODUCT_NAME) uses the camera to scan QR codes</string>
+	<string>$(ALPHAWALLET_PRODUCT_NAME) uses the camera to scan QR codes of Ethereum addresses</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>$(ALPHAWALLET_PRODUCT_NAME) might capture audio if a website needs to perform KYC (with your permission)</string>
 	<key>NSFaceIDUsageDescription</key>
